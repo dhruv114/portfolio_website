@@ -58,21 +58,19 @@ function App() {
                 </li>
               </ul>
             </nav>
-
-            <div className='text-5xl py-10'>
+            <div className='text-5xl py-6'>
               <h2 className='text-5xl py-2 text-teal-600 font-medium dark:text-teal-400 md:text-6xl'>
                 Dhruv Patel
               </h2>
               <h3 className='text-2xl py-2 dark:text-white md:text-3xl'>
                 Developer and dedicated student. 
               </h3>
-
-              <div className = 'max-w-5xl mx-auto px-6 flex flex-col md:flex-row items-center md:items-start gap-8 mt-2'>
+              <div className = 'max-w-5xl py-2 mx-auto px-6 flex flex-col md:flex-row items-center md:items-start gap-8 mt-2'>
                 <div className='md:w-1/3 flex justify-center'>
                   <img 
                   src = '/profile.jpeg'
                   alt='Dhruv Patel'
-                  className='w-40 h-40 md:w-52 md:h-52 rounded-full shadow-lg object-cover' />
+                  className='w-40 h-40 md:w-fit md:h-fit rounded-full shadow-lg object-cover' />
                 </div>
                 <div className='md:w-2/3 my-2 text-center md:text-left'>
                     <h2 className='text-3xl font-bold text-teal-600 mb-4'>About Me</h2>
